@@ -43,6 +43,11 @@ function start_stop(){
 // clear the timer
 function reset(){
     isbreak = true
+    clearTimeout(intervalId)
     document.getElementsByClassName("time")[0].innerHTML = "00:00:00"
     document.getElementById("toggle").innerHTML = "Start"
+}
+
+window.onload = function(){
+    clearTimeout(intervalId)
 }
