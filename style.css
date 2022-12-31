@@ -1,19 +1,35 @@
-.box{
+body {
+    background: #424c51;
+}
+
+h1 {
+    color : rgb(217, 217, 224);
+    background-color: rgb(110, 110, 130);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.box {
     position: absolute;
-    left: 32%;
-    top: 32%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 1px solid black;
     height: 200px;
     width: 500px;
+    background-color: rgb(110, 110, 130);
     border-radius: 20px;
+    border-width: 5px;
+    border-color: rgb(65, 20, 20);
 }
 
-.time{
+.time {
     position: relative;
     left: 42%;
 }
 
-.button{
+.button {
     display: flex;
     justify-content: space-between;
     margin: 35px;
@@ -21,3 +37,9 @@
     top: 38%;
 }
 
+button {
+    background-color: #1c92d2;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
