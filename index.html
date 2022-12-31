@@ -12,10 +12,13 @@
 <body>
     <h1>STOPWATCH</h1>
     <div class="box">
+        <!-- counter time will be shown here in format of Minutes:Seconds:Miliseconds -->
         <h2 class="time">00:00:00</h2>
         <div class="button">
+            <!-- button will use to start and stop stopwatch -->
             <button id="toggle" onclick="start_stop()">Start</button>
-            <button onclick="reset()">RESET</button>
+            <!-- button will use to reset stopwatch counter-->
+            <button id="reset" onclick="reset()">RESET</button>
         </div>
     </div>
     <script src="script.js"></script>
