@@ -11,6 +11,11 @@ h1 {
     text-align: center;
 }
 
+.time {
+    text-align: center;
+    color: white;
+}
+
 .button {
     display: flex;
     justify-content: space-between;
@@ -45,11 +50,6 @@ button {
         width: 500px;
     }
 
-    .time {
-        position: relative;
-        left: 42%;
-    }
-
     .button {
         margin: 35px;
         position: relative;
@@ -78,8 +78,6 @@ button {
     }
 
     .time {
-        position: relative;
-        left: 40%;
         font-size: medium;
     }
 
@@ -111,8 +109,6 @@ button {
     }
 
     .time {
-        position: relative;
-        left: 40%;
         font-size: small;
     }
 
